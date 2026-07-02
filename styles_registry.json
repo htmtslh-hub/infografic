@@ -1,0 +1,250 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-07-02",
+  "description": "Style profiles for isolated visual element generation. Each style defines how individual people, objects, and assets are rendered for video documentary compositing.",
+  "styles": [
+    {
+      "style_name": "documentary_realistic",
+      "display_name": "Documentary Realistic",
+      "analyzed_from": ["preset"],
+      "analysis_date": "2026-07-02",
+      "intended_for": "Serious historical, political, and investigative documentaries requiring accurate visual representation",
+      "dimensions": {
+        "rendering_style": {
+          "art_approach": "semi-realistic digital illustration, between photorealistic and stylized",
+          "detail_level": "moderate to high — enough detail for close-up frames in 1080p/4K video",
+          "line_work": "clean defined outlines, consistent medium weight, darker than fill colors",
+          "shading_method": "smooth gradient shading with clear light source direction, soft shadows on form"
+        },
+        "color_treatment": {
+          "palette_type": "full natural color palette, grounded and realistic",
+          "dominant_colors": "earth tones (browns, tans, olive greens), desaturated blues, warm grays",
+          "color_mood": "warm and grounded, slightly muted saturation, never oversaturated",
+          "highlight_shadow": "warm yellow-white highlights, cool blue-gray shadows"
+        },
+        "proportions_form": {
+          "body_proportions": "realistic human proportions (7.5-8 head heights for adults)",
+          "shape_language": "organic natural forms, anatomically grounded",
+          "scale_feeling": "normal realistic scale",
+          "pose_tendency": "dignified, purposeful — standing, commanding, working, formal poses"
+        },
+        "texture_surface": {
+          "surface_quality": "smooth with selective texture on key materials (fabric weave, metal patina, wood grain)",
+          "material_rendering": "distinct material differentiation — cloth looks like cloth, metal like metal",
+          "texture_overlays": "none or very subtle paper grain for warmth",
+          "edge_treatment": "crisp clean edges, suitable for compositing cutout"
+        },
+        "period_cultural": {
+          "era_cues": "historically accurate costuming and artifacts based on the specified time period",
+          "cultural_elements": "research-backed cultural details — clothing, tools, hairstyles, accessories",
+          "reference_fidelity": "high fidelity to historical references where possible",
+          "detail_authenticity": "prioritize recognizable period-accurate details over artistic license"
+        },
+        "mood_expression": {
+          "expression_default": "serious, dignified, thoughtful",
+          "overall_energy": "calm and composed, authoritative",
+          "emotional_weight": "balanced to heavy, conveying significance",
+          "target_audience": "general adult audience, cinematic"
+        }
+      },
+      "prompt_keywords": [
+        "semi-realistic digital illustration",
+        "clean outlines",
+        "smooth gradient shading",
+        "natural earth tone colors",
+        "historically accurate",
+        "dignified pose",
+        "moderate high detail",
+        "professional illustration",
+        "documentary style",
+        "realistic proportions",
+        "clean cutout",
+        "production-ready asset",
+        "crisp edges"
+      ]
+    },
+    {
+      "style_name": "educational_flat",
+      "display_name": "Educational Flat Vector",
+      "analyzed_from": ["preset"],
+      "analysis_date": "2026-07-02",
+      "intended_for": "Educational explainer content, science documentaries, kid-friendly or general audience content",
+      "dimensions": {
+        "rendering_style": {
+          "art_approach": "flat vector illustration, clean and modern, Kurzgesagt-inspired",
+          "detail_level": "simplified iconic — key features are clear, unnecessary detail removed",
+          "line_work": "bold clean outlines with consistent weight, or no outlines with shape-based definition",
+          "shading_method": "flat color fills with 1-2 shade steps, minimal gradient, cel-shaded look"
+        },
+        "color_treatment": {
+          "palette_type": "limited bright palette, 5-7 core colors, harmonious and bold",
+          "dominant_colors": "bright teal (#2dd4bf), coral (#fb7185), warm yellow (#fbbf24), deep navy (#1e293b), soft white (#f8fafc)",
+          "color_mood": "vibrant, friendly, optimistic, high contrast",
+          "highlight_shadow": "lighter tint of base color for highlights, darker shade for shadows, no color temperature shift"
+        },
+        "proportions_form": {
+          "body_proportions": "slightly stylized — larger heads (5-6 head heights), simplified hands and feet",
+          "shape_language": "rounded soft forms, circles and ovals dominate, friendly geometry",
+          "scale_feeling": "approachable, slightly cute without being childish",
+          "pose_tendency": "clear readable poses, slight exaggeration for clarity, facing viewer or profile"
+        },
+        "texture_surface": {
+          "surface_quality": "perfectly smooth, clean vector finish",
+          "material_rendering": "flat color differentiation, no complex material simulation",
+          "texture_overlays": "none — pure clean vector",
+          "edge_treatment": "pixel-perfect crisp edges, anti-aliased"
+        },
+        "period_cultural": {
+          "era_cues": "simplified but recognizable period markers — key costume elements, iconic objects",
+          "cultural_elements": "iconic/symbolic representation of cultural elements",
+          "reference_fidelity": "artistic interpretation prioritizing recognition over accuracy",
+          "detail_authenticity": "simplified to essential recognizable features"
+        },
+        "mood_expression": {
+          "expression_default": "friendly, approachable, clear",
+          "overall_energy": "moderate, engaging, inviting",
+          "emotional_weight": "light, educational, accessible",
+          "target_audience": "general audience, families, students"
+        }
+      },
+      "prompt_keywords": [
+        "flat vector illustration",
+        "clean modern design",
+        "bold bright colors",
+        "simplified iconic",
+        "rounded soft forms",
+        "no texture",
+        "cel-shaded",
+        "friendly approachable",
+        "educational style",
+        "Kurzgesagt inspired",
+        "clean cutout",
+        "crisp edges",
+        "production-ready"
+      ]
+    },
+    {
+      "style_name": "cinematic_painterly",
+      "display_name": "Cinematic Painterly",
+      "analyzed_from": ["preset"],
+      "analysis_date": "2026-07-02",
+      "intended_for": "Epic historical narratives, cultural documentaries, dramatic storytelling, premium productions",
+      "dimensions": {
+        "rendering_style": {
+          "art_approach": "painterly digital art, resembling oil painting or concept art",
+          "detail_level": "high detail with painterly brushwork visible — not photorealistic but richly rendered",
+          "line_work": "no harsh outlines, forms defined by color and value changes",
+          "shading_method": "smooth blended painting with visible brush texture, dramatic chiaroscuro lighting"
+        },
+        "color_treatment": {
+          "palette_type": "rich saturated but slightly muted, old-master painting quality",
+          "dominant_colors": "deep reds (#8b1a1a), burnished gold (#b8860b), dark teal (#1a4a4a), warm ivory (#faf0e6)",
+          "color_mood": "warm, dramatic, aged, luxurious",
+          "highlight_shadow": "golden warm highlights, deep cool purple-blue shadows, strong value contrast"
+        },
+        "proportions_form": {
+          "body_proportions": "realistic, heroic (slightly idealized musculature/posture)",
+          "shape_language": "organic flowing forms, strong silhouettes, classical composition",
+          "scale_feeling": "monumental, epic, larger-than-life presence",
+          "pose_tendency": "dramatic, heroic, expressive — reminiscent of classical paintings"
+        },
+        "texture_surface": {
+          "surface_quality": "rich painterly texture, visible brushstrokes, oil painting feel",
+          "material_rendering": "luxurious material rendering — silk sheen, armor gleam, skin warmth, fabric folds",
+          "texture_overlays": "subtle canvas texture, painted grain",
+          "edge_treatment": "slightly soft painterly edges with sharp focus on face/key details"
+        },
+        "period_cultural": {
+          "era_cues": "richly detailed period costumes, full historical regalia",
+          "cultural_elements": "deeply rendered cultural artifacts, ornate patterns, authentic details",
+          "reference_fidelity": "high fidelity interpreted through artistic grandeur",
+          "detail_authenticity": "historically researched with artistic enhancement for drama"
+        },
+        "mood_expression": {
+          "expression_default": "dramatic, intense, contemplative, heroic",
+          "overall_energy": "dynamic, powerful, emotionally charged",
+          "emotional_weight": "heavy, epic, significant",
+          "target_audience": "adult cinematic audience, premium content"
+        }
+      },
+      "prompt_keywords": [
+        "painterly digital art",
+        "oil painting style",
+        "dramatic chiaroscuro lighting",
+        "rich saturated muted colors",
+        "visible brushstrokes",
+        "heroic pose",
+        "classical composition",
+        "high detail",
+        "concept art quality",
+        "dramatic expression",
+        "epic monumental",
+        "clean cutout",
+        "golden highlights",
+        "production-ready asset"
+      ]
+    },
+    {
+      "style_name": "glass_corporate_tech",
+      "display_name": "Glass Corporate Technology",
+      "analyzed_from": ["user_sample_freepik_hexagonal_infographic.jpg"],
+      "analysis_date": "2026-07-02",
+      "intended_for": "Business documentaries, technology explainers, corporate presentations, startup stories, modern economy topics",
+      "dimensions": {
+        "rendering_style": {
+          "art_approach": "clean 3D-ish digital render with glassmorphism UI elements, modern tech aesthetic",
+          "detail_level": "moderate — clean and polished, not overly detailed, focus on clarity and sleekness",
+          "line_work": "no outlines on elements, forms defined by transparency, glow, and glass reflections",
+          "shading_method": "soft ambient lighting, frosted glass diffusion, subtle white glow on edges, no harsh shadows"
+        },
+        "color_treatment": {
+          "palette_type": "monochrome warm gray-brown base with white and subtle cool accents",
+          "dominant_colors": "warm gray (#8a7b6b), brown-taupe (#6b5b4b), white (#ffffff), soft silver (#c0c0c0), transparent glass tint",
+          "color_mood": "neutral, sophisticated, corporate-clean, muted warmth",
+          "highlight_shadow": "white/bright silver highlights, warm medium-gray shadows, glass transparency effects"
+        },
+        "proportions_form": {
+          "body_proportions": "N/A for icons; geometric and proportional for shapes",
+          "shape_language": "clean geometric — circles, hexagons, rounded rectangles, symmetrical layouts",
+          "scale_feeling": "sleek, polished, modern, precision-engineered",
+          "pose_tendency": "static, centered, symmetrical, icon-like presentation"
+        },
+        "texture_surface": {
+          "surface_quality": "glossy glassmorphism — frosted semi-transparent panels, reflective surfaces",
+          "material_rendering": "glass/acrylic material with depth blur behind, clean white icon fills, metallic ring borders",
+          "texture_overlays": "subtle depth-of-field blur on background, no grain or noise",
+          "edge_treatment": "smooth anti-aliased edges, subtle white glow outline on glass elements"
+        },
+        "period_cultural": {
+          "era_cues": "modern/contemporary, 2020s tech aesthetic",
+          "cultural_elements": "universal corporate/business visual language",
+          "reference_fidelity": "modern design trends — glassmorphism, flat icons in glass containers",
+          "detail_authenticity": "generic modern business/tech iconography"
+        },
+        "mood_expression": {
+          "expression_default": "professional, confident, trustworthy",
+          "overall_energy": "calm, polished, corporate elegance",
+          "emotional_weight": "light-to-balanced, approachable professionalism",
+          "target_audience": "business professionals, investors, general adult audience"
+        }
+      },
+      "prompt_keywords": [
+        "glassmorphism style",
+        "frosted glass panel",
+        "clean 3D render",
+        "corporate tech aesthetic",
+        "white icon on glass circle",
+        "warm gray monochrome palette",
+        "polished modern design",
+        "subtle glow effect",
+        "transparent glass material",
+        "geometric shapes",
+        "sleek professional",
+        "hexagonal layout element",
+        "semi-transparent panels",
+        "clean cutout",
+        "production-ready asset"
+      ]
+    }
+  ]
+}
